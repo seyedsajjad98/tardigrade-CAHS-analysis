@@ -1,1 +1,9 @@
+biopython
 
+metapredict
+
+localcider
+
+matplotlib
+
+numpy
