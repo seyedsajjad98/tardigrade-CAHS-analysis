@@ -83,59 +83,45 @@ divergent family member.
 ![FCR vs Kappa](results/figures/fcr_kappa_scatter_fixed.png)
 
 ## Repository Structure
+
 tardigrade-CAHS-analysis/
-
 ├── data/
-
-│ └── raw/
-
-│ └── cahs_sequences.fasta
-
+│   └── raw/
+│       └── cahs_sequences.fasta
 ├── scripts/
-
-│ └── cahs_analysis.py
-
+│   └── cahs_analysis.py
 ├── results/
-
-│ └── figures/
-
-│ ├── disorder_barchart_final.png
-
-│ ├── disorder_fcr_scatter_fixed.png
-
-│ └── fcr_kappa_scatter_fixed.png
-
+│   └── figures/
+│       ├── disorder_barchart_final.png
+│       ├── disorder_fcr_scatter_fixed.png
+│       └── fcr_kappa_scatter_fixed.png
 ├── requirements.txt
-
 ├── LICENSE
-
 └── README.md
 
-How to Reproduce
-bash
+## How to Reproduce
 
-Clone the repository
 git clone https://github.com/seyedsajjad98/tardigrade-CAHS-analysis.git
-
 cd tardigrade-CAHS-analysis
-
-Install dependencies
 pip install -r requirements.txt
-
-Run the full analysis pipeline
 python scripts/cahs_analysis.py
 
-Figures will be regenerated in results/figures/.
+Output plots will be saved to results/figures/.
 
-References
-Boothby, T.C. et al. (2017). *Tardigrades Use Intrinsically DisorderedProteins to Survive Desiccation.* Molecular Cell.
-Emenecker, R.J. et al. (2021). *Metapredict: a fast, accurate, and easy-to-usepredictor of consensus disorder and structure.* Biophysical Journal.
-Holehouse, A.S. et al. (2017). *CIDER: Resources to Analyze Sequence-EnsembleRelationships of Intrinsically Disordered Proteins.* Biophysical Journal.
-Blog post: Why Tardigrades Are a Playground for Genomicists
-License
+## References
+
+- Boothby, T. C., et al. (2017). Tardigrades Use Intrinsically Disordered Proteins to Survive Desiccation. Molecular Cell, 65(6), 975–984.
+- Yagi-Utsumi, M., et al. (2021). Desiccation-induced fibrous condensation of CAHS protein from an anhydrobiotic tardigrade. Scientific Reports.
+- UniProtKB — Hypsibius exemplaris CAHS protein entries.
+- Blog post: sajjadomics.com — Why Tardigrades Are a Playground for Genomicists
+
+## License
+
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-Contact
-SeyedSajjad Haghi
+## Contact
 
-GitHub: @seyedsajjad98
+Sajjad Haghi
+GitHub: https://github.com/seyedsajjad98
+LinkedIn: https://linkedin.com/in/sajjad-haghi-96a1ba209/
+`
